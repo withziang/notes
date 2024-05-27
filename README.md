@@ -1,4 +1,4 @@
-# notes
+# Notes
 This repo stores some valuale development knowledge I learnt over the years. 
 
 # List
