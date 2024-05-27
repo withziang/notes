@@ -28,3 +28,10 @@ Which file is root, which file imports which file
 Every method, every function, with their args and default args and usage.
 
 
+# R&D steps
+Monday.com is a good tool.
+- Assessment
+- Development
+- Testing and Validation
+- Project Launch and Development
+- Post-Mortem and Maintenance
