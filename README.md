@@ -6,4 +6,4 @@ This repo stores some valuale development knowledge I learnt over the years.
 - [Note](./R&D.md) R&D Development & Documentation
 - [Note](./Bootstrap.md) Bootstrap Technique
 - [Note](./chart-js.md) Chart.js
-- [Note](./API.md) React-form-stepper
+- [Note](./stepper.md) React-form-stepper
