@@ -1,5 +1,5 @@
 # Boostrap note
-The most nobrainer framework in React
+The most no-brainer framework in React
 
 
 ## React-Bootstrap `2.10.2`
@@ -57,6 +57,35 @@ Use `className` instead of css
   - `align-items-stretch`
 - self  children
 - auto
+  
+#### Float
+- `float-left`, `float-right`, `float-none`
+
+#### Visible
+- `visible`, `invisible`
+
+
+#### Position
+- `position-static`, `position-relative`, `position-absolute`, `position-fixed`, `position-sticky`
+
+#### Size
+- `w-25`, 50, 75, 100 : width
+- `mw- `
+
+
+#### Spacing 
+- `m, p` +
+- `t, b, l, r, x, y` +
+- `0 ~ 5 / auto`
+
+#### Text
+- `text-left`, `text-center`, `text-right`
+- `text-truncate`
+- `text-lowercase`, `text-uppercase`, `text-capitalize`
+- `font-weight-bold`, `font-italic`
+
+
+
 
 
 ### React General Trick
