@@ -120,13 +120,13 @@ Use `className` instead of css
 ### Flex
 - `flex-column`
 - `flex-column-reverse`
-- | center  parental
+- -- center  parental
   - `justify-content-start`
   - `justify-content-end`
   - `justify-content-center`
   - `justify-content-between`
   - `justify-content-around`
-- -- center  parental
+- | center  parental
   - `align-items-start`
   - `align-items-end`
   - `align-items-center`
