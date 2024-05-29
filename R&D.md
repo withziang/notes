@@ -35,3 +35,64 @@ Monday.com is a good tool.
 - Testing and Validation
 - Project Launch and Development
 - Post-Mortem and Maintenance
+
+# React web structure
+```
+│   App.css
+│   App.js
+│   index.js
+│
+├───asset
+│
+├───component
+│       logo.jsx
+│
+├───cssFolder
+│
+├───layout
+│       layout.jsx
+│
+├───pages
+│   ├───action-pages
+│   │   
+│   ├───auth-pages
+│   │       loginPage.jsx
+│   │
+│   ├───board-pages
+│   │   │   mainPage.jsx
+│   │   │
+│   │   └───mainPage-component
+│   │
+│   └───utility-page
+├───routes
+│       routeList.jsx
+│
+└───utils
+```
+
+
+```
+/public/index.html
+│
+├───/index.js
+    ├───/App.js
+    ├───/App.css 
+    ├───##bootstrap css
+        ├───/routes/routeList.jsx
+            ├─── /pages/auth-pages/loginPage.jsx
+            ├───/layout/layout.jsx
+                ├───/component/navbar
+                ├─── /pages/board-pages/mainPage.jsx
+                    ├───/pages/board-pages/mainPage-component
+
+                ├─── /pages/action-pages/createPage.jsx
+                    ├───/pages/board-pages/createPage-component
+
+                ├─── /pages/action-pages/ratePage.jsx
+                    ├───/pages/board-pages/ratePage-component
+
+                ├─── /pages/action-pages/approvePage.jsx
+                    ├───/pages/board-pages/approvePage-component
+
+
+```
