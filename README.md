@@ -1,5 +1,5 @@
 # Notes
-This repo stores some valuale development knowledge I learnt over the years. 
+This repo stores some valuable development knowledge I learnt over the years. 
 
 # List
 - [Note](./API.md) API using python 
@@ -7,3 +7,4 @@ This repo stores some valuale development knowledge I learnt over the years.
 - [Note](./Bootstrap.md) Bootstrap Technique
 - [Note](./chart-js.md) Chart.js
 - [Note](./stepper.md) React-form-stepper
+- Material UI
