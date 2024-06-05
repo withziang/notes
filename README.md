@@ -7,4 +7,4 @@ This repo stores some valuable development knowledge I learnt over the years.
 - [Note](./Bootstrap.md) Bootstrap Technique
 - [Note](./chart-js.md) Chart.js
 - [Note](./stepper.md) React-form-stepper
-- [Note](./material-UI.md) Material UI
+- [Note](./Material-UI.md) Material UI
