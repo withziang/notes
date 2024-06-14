@@ -14,3 +14,15 @@ This repo stores some valuable development knowledge I learnt over the years.
 # logo
 
 🌙☀️🔥⚡️ ❄️📁 🔒 🔓 🔏 🔐 🔑 🔧⭐️📍
+
+
+# react hook
+
+- useState
+- useEffect
+- useContext: children
+- useRef: does not trigger a rerender
+- useReducer: advance useState
+- useCallback:  expansice function, store a function
+- useMemo: expansice function, store a value
+
