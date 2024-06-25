@@ -5,14 +5,14 @@
 - Js function within HTML
 
   
-          {(() => {
-            switch (selectedIndex) {
-                case 0:
-                    return <SelectChessBoardBackground boardIndex={boardIndex} setBoardIndex={setBoardIndex} windowWidth={windowWidth}/>;
-                case 1:
-                    return <GameMode/>;
-                default:
-                    return <></>;
-            }
-      })()} 
+        {(() => {
+          switch (selectedIndex) {
+              case 0:
+                  return <SelectChessBoardBackground boardIndex={boardIndex} setBoardIndex={setBoardIndex} windowWidth={windowWidth}/>;
+              case 1:
+                  return <GameMode/>;
+              default:
+                  return <></>;
+          }
+          })()} 
 
