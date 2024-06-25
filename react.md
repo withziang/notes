@@ -16,3 +16,11 @@
           }
           })()} 
 
+- Js function within useState
+  
+            setStops(prevStops => {
+                const updatedStops = [...prevStops];
+                updatedStops.splice(index - 1, 1);
+                return updateStopsIndexes(updatedStops);
+            });
+  
