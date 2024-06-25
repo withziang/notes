@@ -5,7 +5,7 @@
 - Js function within HTML
 
   
-      ```    {(() => {
+          {(() => {
             switch (selectedIndex) {
                 case 0:
                     return <SelectChessBoardBackground boardIndex={boardIndex} setBoardIndex={setBoardIndex} windowWidth={windowWidth}/>;
@@ -14,5 +14,5 @@
                 default:
                     return <></>;
             }
-      })()} ```
+      })()} 
 
