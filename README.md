@@ -26,6 +26,9 @@ This repo stores some valuable development knowledge I learnt over the years.
 - useCallback:  expansice function, store a function
 - useMemo: expansice function, store a value
 
+# react other
+-memo: save component from rendering
+
 # `rsc` shortcut
 ```
 // ---------------------------      React Lib       ----------------------------------------------------------------
