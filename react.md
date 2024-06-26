@@ -24,4 +24,7 @@
                 updatedStops.splice(index - 1, 1);
                 return updateStopsIndexes(updatedStops);
             });
+
+- useRef can be parsed to child component
+- react.cloneElement does not re-render useState, new props
   
