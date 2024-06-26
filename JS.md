@@ -8,3 +8,7 @@
             return accumulator;
           }, [] //init datatype
         );
+
+- array/dictionary concat
+
+        [...prev, new] {...prev, new}
