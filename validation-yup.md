@@ -1,7 +1,31 @@
 # Yup framework in validation
-
+`import * as Yup from 'yup';`
 - basic manual validaiton
-
+      - set up form with disabled default, add an error useState in the code, use `helperText`, `error` and `onChange` to validate
+      - model
+                  ```
+                    const validationSchema = Yup.object().shape({
+                           x : Yup.string(),
+                          ...
+                        });
+                  ```
+      - validate function
+              ```
+                     const validateField = (field, value) => {
+                          try {
+                              validationSchema.validateSyncAt(field, { [field]: value });
+                              setErrors(prevErrors => ({ ...prevErrors, [field]: '' }));
+                          } catch (validationError) {
+                              setErrors(prevErrors => ({ ...prevErrors, [field]: validationError.message }));
+                          }
+                      };
+              ```
+        - in HTML
+              ```
+                  validateField('x', e.target.value);
+                  error={!!errors.x}
+                  helperText={errors.x}
+              ```
 - datatype
 - 
 - disable basic HTML form `<form onSubmit={(event)=>{event.preventDefault();}} className="w100 h100">`
